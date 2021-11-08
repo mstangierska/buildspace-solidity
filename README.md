@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+This project demonstrates a Hardhat use case. The application is a Wave Portal connected to a .
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Funcitonalities include: 
+(1) Checking whether user's wallet is connected & connecting the waller.
+(2) Enable user to send a message &/ publish their info. 
+(3) Enable user to submit 1 wave per 15 minutes. 
+(4) Lottery.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+App created using Solidity and React. 
